@@ -1,0 +1,77 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+<EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Admission NO:"
+            android:id="@+id/adno"
+            android:inputType="number"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"/>
+<EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Roll No:"
+            android:id="@+id/rono"
+            android:inputType="number"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"/>
+<EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Highest Degree:"
+            android:id="@+id/deg"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"/>
+<EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter College:"
+            android:id="@+id/co"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"/>
+<EditText
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:hint="Enter Id:"
+            android:id="@+id/id"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"/>
+<EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password:"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"/>
+<EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Conform Password:"
+            android:id="@+id/conpass"
+            android:inputType="textPassword"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"/>
+<androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:background="@color/studpage"
+            android:layout_margin="10dp"
+            android:id="@+id/reg"/>
+<androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back To Login"
+            android:background="@color/studpage"
+            android:layout_margin="10dp"
+            android:id="@+id/blog"/>
+</LinearLayout>
+</ScrollView>
