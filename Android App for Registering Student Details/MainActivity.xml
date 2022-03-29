@@ -1,0 +1,40 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the stud ID"
+        android:id="@+id/studid"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"/>
+<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:id="@+id/pass"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"/>
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="@color/studlobbutton"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:id="@+id/login"
+        android:text="LOGIN"/>
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+
+
+android:background="@color/studlobbutton"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:id="@+id/reg"
+        android:text="Go To Register"/>
+</LinearLayout>
