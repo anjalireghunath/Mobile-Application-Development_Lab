@@ -1,0 +1,67 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Number"
+        android:inputType="number"
+        android:id="@+id/fno"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"/>
+<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter second Number"
+        android:inputType="number"
+        android:id="@+id/sno"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"/>
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/add"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:background="@color/calbutton"/>
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/sub"
+        android:layout_margin="10dp"
+
+        android:background="@color/calbutton"/>
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/div"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:background="@color/calbutton"/>
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="*"
+        android:id="@+id/multi"
+        android:layout_margin="10dp"
+        android:background="@color/calbutton"/>
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clear"
+        android:id="@+id/clear"
+        android:background="@color/calbutton"
+        android:layout_margin="10dp"/>
+<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="result:"
+        android:id="@+id/res"
+        android:textColor="@color/black"/>
+</LinearLayout>
